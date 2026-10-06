@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>TechNova | Sample Website</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <div class="logo">
+                Tech<span>Nova</span>
+            </div>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+            >
+                ☰
+            </button>
+
+            <nav id="navigation">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#services">
+                    Services
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <section
+        class="hero"
+        id="home"
+    >
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="small-title">
+                    WELCOME TO TECHNOVA
+                </p>
+
+                <h1>
+                    Build Something
+                    <span>Amazing.</span>
+                </h1>
+
+                <p class="hero-description">
+
+                    We create modern websites and
+                    digital experiences that help
+                    businesses grow online.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#services"
+                        class="button primary-button"
+                    >
+                        Explore Services
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="button secondary-button"
+                    >
+                        Contact Us
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="card-circle"></div>
+
+                <div class="code-card">
+
+                    <div class="code-header">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <div class="code">
+
+                        <p>
+                            <span class="purple">
+                                const
+                            </span>
+                            website =
+                        </p>
+
+                        <p class="indent">
+                            {
+                        </p>
+
+                        <p class="indent">
+                            design:
+                            <span class="green">
+                                "modern"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            speed:
+                            <span class="green">
+                                "fast"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            responsive:
+                            <span class="blue">
+                                true
+                            </span>
+                        </p>
+
+                        <p class="indent">
+                            };
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT SECTION
+    ========================== -->
+
+    <section
+        class="section"
+        id="about"
+    >
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>
+                    ABOUT US
+                </p>
+
+                <h2>
+                    We Turn Ideas Into Reality
+                </h2>
+
+                <span>
+                    We combine design, technology and
+                    creativity to create digital products
+                    that people love.
+                </span>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-box">
+
+                    <div class="about-icon">
+                        💡
+                    </div>
+
+                    <h3>
+                        Creative Ideas
+                    </h3>
+
+                    <p>
+                        We develop creative solutions
+                        that make your brand stand out.
+                    </p>
+
+                </div>
+
+
+                <div class="about-box">
+
+                    <div class="about-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        Fast Performance
+                    </h3>
+
+                    <p>
+                        Our websites are optimized for
+                        speed and excellent performance.
+                    </p>
+
+                </div>
+
+
+                <div class="about-box">
+
+                    <div class="about-icon">
+                        📱
+                    </div>
+
+                    <h3>
+                        Responsive Design
+                    </h3>
+
+                    <p>
+                        Your website will look great on
+                        phones, tablets and computers.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES SECTION
+    ========================== -->
+
+    <section
+        class="section services-section"
+        id="services"
+    >
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <p>
+                    OUR SERVICES
+                </p>
+
+                <h2>
+                    What We Do
+                </h2>
+
+                <span>
+                    Simple solutions for modern businesses.
+                </span>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <div class="service-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        We build modern and scalable
+                        websites using the latest
+                        technologies.
+                    </p>
+
+                    <a href="#contact">
+                        Learn More →
+                    </a>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-number">
+                        02
+                    </div>
+
+                    <h3>
+                        UI/UX Design
+                    </h3>
+
+                    <p>
+                        We create clean and intuitive
+                        interfaces that are easy to use.
+                    </p>
+
+                    <a href="#contact">
+                        Learn More →
+                    </a>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Digital Strategy
+                    </h3>
+
+                    <p>
+                        We help businesses create strategies
+                        that improve their digital presence.
+                    </p>
+
+                    <a href="#contact">
+                        Learn More →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         STATS
+    ========================== -->
+
+    <section class="stats">
+
+        <div class="container stats-grid">
+
+            <div>
+                <strong>50+</strong>
+                <span>Projects</span>
+            </div>
+
+            <div>
+                <strong>30+</strong>
+                <span>Clients</span>
+            </div>
+
+            <div>
+                <strong>5+</strong>
+                <span>Years Experience</span>
+            </div>
+
+            <div>
+                <strong>100%</strong>
+                <span>Commitment</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT SECTION
+    ========================== -->
+
+    <section
+        class="section"
+        id="contact"
+    >
+
+        <div class="container contact-grid">
+
+            <div class="contact-info">
+
+                <p class="small-title">
+                    CONTACT US
+                </p>
+
+                <h2>
+                    Let's Work Together
+                </h2>
+
+                <p>
+                    Have an idea for a website or
+                    digital product? Send us a message.
+                </p>
+
+                <div class="contact-details">
+
+                    <p>
+                        📧 hello@technova.com
+                    </p>
+
+                    <p>
+                        📞 +91 98765 43210
+                    </p>
+
+                    <p>
+                        📍 India
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <form
+                class="contact-form"
+                id="contactForm"
+            >
+
+                <label>
+                    Your Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label>
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label>
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+
+                <button
+                    type="submit"
+                    class="button primary-button"
+                >
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div class="logo">
+                Tech<span>Nova</span>
+            </div>
+
+            <p>
+                © 2026 TechNova.
+                All rights reserved.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#">
+                    Facebook
+                </a>
+
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script
+        src="{{ url_for('static', filename='js/script.js') }}"
+    ></script>
+
+</body>
+
+</html>
